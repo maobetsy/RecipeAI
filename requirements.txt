@@ -1,0 +1,6 @@
+pip install
+pip install fastapi
+pylint
+black
+setuptools-rust
+maturin
