@@ -1,6 +1,6 @@
-pip install
-pip install fastapi
+fastapi
 pylint
 black
 setuptools-rust
 maturin
+google-genai
