@@ -1,5 +1,7 @@
-from google import genai
+from dotenv import load_dotenv
+load_dotenv()
 
+from google import genai
 client = genai.Client()
 
 interaction = client.interactions.create(
