@@ -13,16 +13,6 @@ from backend.app.models.recipemodel import (
 
 router = APIRouter()
 
-# @router.post(
-#     "/generate_recipe",
-#     response_model=RecipeResponse
-# )
-# async def generate_recipe(request: RecipeRequest):
-
-#     return RecipeResponse(
-#         response=request.prompt
-#     )
-
 def generate_recipe_ai(prompt):
     
     client = genai.Client()
