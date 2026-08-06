@@ -4,3 +4,4 @@ black
 setuptools-rust
 maturin
 google-genai
+uvicorn
